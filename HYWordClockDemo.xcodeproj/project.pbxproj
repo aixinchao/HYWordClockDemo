@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA1402EB22548D18007C7C65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1402EA22548D18007C7C65 /* AppDelegate.m */; };
+		EA1402EE22548D18007C7C65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1402ED22548D18007C7C65 /* ViewController.m */; };
+		EA1402F122548D18007C7C65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1402EF22548D18007C7C65 /* Main.storyboard */; };
+		EA1402F422548D18007C7C65 /* HYWordClockDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA1402F222548D18007C7C65 /* HYWordClockDemo.xcdatamodeld */; };
+		EA1402F622548D1A007C7C65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA1402F522548D1A007C7C65 /* Assets.xcassets */; };
+		EA1402F922548D1A007C7C65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1402F722548D1A007C7C65 /* LaunchScreen.storyboard */; };
+		EA1402FC22548D1A007C7C65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1402FB22548D1A007C7C65 /* main.m */; };
+		EA14030622548D1A007C7C65 /* HYWordClockDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA14030522548D1A007C7C65 /* HYWordClockDemoTests.m */; };
+		EA14031122548D1A007C7C65 /* HYWordClockDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA14031022548D1A007C7C65 /* HYWordClockDemoUITests.m */; };
+		EA140320225490E6007C7C65 /* HYWordClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA14031F225490E6007C7C65 /* HYWordClockViewController.m */; };
+		EA14032222549588007C7C65 /* Word.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA14032122549588007C7C65 /* Word.plist */; };
+		EA14032A2254A346007C7C65 /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1403252254A346007C7C65 /* UIView+SDAutoLayout.m */; };
+		EA14032B2254A346007C7C65 /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1403282254A346007C7C65 /* UITableView+SDAutoTableViewCellHeight.m */; };
+		EA14033F2255B08D007C7C65 /* HYWordClockHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA14033E2255B08D007C7C65 /* HYWordClockHViewController.m */; };
+		EA1403492259D241007C7C65 /* HYWordClockYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1403482259D241007C7C65 /* HYWordClockYViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA14030222548D1A007C7C65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA1402DE22548D18007C7C65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA1402E522548D18007C7C65;
+			remoteInfo = HYWordClockDemo;
+		};
+		EA14030D22548D1A007C7C65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA1402DE22548D18007C7C65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA1402E522548D18007C7C65;
+			remoteInfo = HYWordClockDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA1402E622548D18007C7C65 /* HYWordClockDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYWordClockDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1402E922548D18007C7C65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA1402EA22548D18007C7C65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA1402EC22548D18007C7C65 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA1402ED22548D18007C7C65 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA1402F022548D18007C7C65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA1402F322548D18007C7C65 /* HYWordClockDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HYWordClockDemo.xcdatamodel; sourceTree = "<group>"; };
+		EA1402F522548D1A007C7C65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA1402F822548D1A007C7C65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA1402FA22548D1A007C7C65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA1402FB22548D1A007C7C65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA14030122548D1A007C7C65 /* HYWordClockDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYWordClockDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA14030522548D1A007C7C65 /* HYWordClockDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYWordClockDemoTests.m; sourceTree = "<group>"; };
+		EA14030722548D1A007C7C65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA14030C22548D1A007C7C65 /* HYWordClockDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYWordClockDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA14031022548D1A007C7C65 /* HYWordClockDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYWordClockDemoUITests.m; sourceTree = "<group>"; };
+		EA14031222548D1A007C7C65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA14031E225490E6007C7C65 /* HYWordClockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYWordClockViewController.h; sourceTree = "<group>"; };
+		EA14031F225490E6007C7C65 /* HYWordClockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYWordClockViewController.m; sourceTree = "<group>"; };
+		EA14032122549588007C7C65 /* Word.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Word.plist; sourceTree = "<group>"; };
+		EA1403252254A346007C7C65 /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		EA1403262254A346007C7C65 /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		EA1403272254A346007C7C65 /* SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAutoLayout.h; sourceTree = "<group>"; };
+		EA1403282254A346007C7C65 /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		EA1403292254A346007C7C65 /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		EA14033D2255B08D007C7C65 /* HYWordClockHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYWordClockHViewController.h; sourceTree = "<group>"; };
+		EA14033E2255B08D007C7C65 /* HYWordClockHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYWordClockHViewController.m; sourceTree = "<group>"; };
+		EA1403472259D241007C7C65 /* HYWordClockYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYWordClockYViewController.h; sourceTree = "<group>"; };
+		EA1403482259D241007C7C65 /* HYWordClockYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYWordClockYViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA1402E322548D18007C7C65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1402FE22548D1A007C7C65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA14030922548D1A007C7C65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA1402DD22548D18007C7C65 = {
+			isa = PBXGroup;
+			children = (
+				EA1402E822548D18007C7C65 /* HYWordClockDemo */,
+				EA14030422548D1A007C7C65 /* HYWordClockDemoTests */,
+				EA14030F22548D1A007C7C65 /* HYWordClockDemoUITests */,
+				EA1402E722548D18007C7C65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA1402E722548D18007C7C65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA1402E622548D18007C7C65 /* HYWordClockDemo.app */,
+				EA14030122548D1A007C7C65 /* HYWordClockDemoTests.xctest */,
+				EA14030C22548D1A007C7C65 /* HYWordClockDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA1402E822548D18007C7C65 /* HYWordClockDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EA1402E922548D18007C7C65 /* AppDelegate.h */,
+				EA1402EA22548D18007C7C65 /* AppDelegate.m */,
+				EA1402EC22548D18007C7C65 /* ViewController.h */,
+				EA1402ED22548D18007C7C65 /* ViewController.m */,
+				EA1403472259D241007C7C65 /* HYWordClockYViewController.h */,
+				EA1403482259D241007C7C65 /* HYWordClockYViewController.m */,
+				EA14033D2255B08D007C7C65 /* HYWordClockHViewController.h */,
+				EA14033E2255B08D007C7C65 /* HYWordClockHViewController.m */,
+				EA14031E225490E6007C7C65 /* HYWordClockViewController.h */,
+				EA14031F225490E6007C7C65 /* HYWordClockViewController.m */,
+				EA14032122549588007C7C65 /* Word.plist */,
+				EA1403232254A338007C7C65 /* Vendors */,
+				EA1402EF22548D18007C7C65 /* Main.storyboard */,
+				EA1402F522548D1A007C7C65 /* Assets.xcassets */,
+				EA1402F722548D1A007C7C65 /* LaunchScreen.storyboard */,
+				EA1402FA22548D1A007C7C65 /* Info.plist */,
+				EA1402FB22548D1A007C7C65 /* main.m */,
+				EA1402F222548D18007C7C65 /* HYWordClockDemo.xcdatamodeld */,
+			);
+			path = HYWordClockDemo;
+			sourceTree = "<group>";
+		};
+		EA14030422548D1A007C7C65 /* HYWordClockDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA14030522548D1A007C7C65 /* HYWordClockDemoTests.m */,
+				EA14030722548D1A007C7C65 /* Info.plist */,
+			);
+			path = HYWordClockDemoTests;
+			sourceTree = "<group>";
+		};
+		EA14030F22548D1A007C7C65 /* HYWordClockDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA14031022548D1A007C7C65 /* HYWordClockDemoUITests.m */,
+				EA14031222548D1A007C7C65 /* Info.plist */,
+			);
+			path = HYWordClockDemoUITests;
+			sourceTree = "<group>";
+		};
+		EA1403232254A338007C7C65 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				EA1403242254A346007C7C65 /* SDAutoLayout */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		EA1403242254A346007C7C65 /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				EA1403252254A346007C7C65 /* UIView+SDAutoLayout.m */,
+				EA1403262254A346007C7C65 /* UITableView+SDAutoTableViewCellHeight.h */,
+				EA1403272254A346007C7C65 /* SDAutoLayout.h */,
+				EA1403282254A346007C7C65 /* UITableView+SDAutoTableViewCellHeight.m */,
+				EA1403292254A346007C7C65 /* UIView+SDAutoLayout.h */,
+			);
+			path = SDAutoLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA1402E522548D18007C7C65 /* HYWordClockDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA14031522548D1A007C7C65 /* Build configuration list for PBXNativeTarget "HYWordClockDemo" */;
+			buildPhases = (
+				EA1402E222548D18007C7C65 /* Sources */,
+				EA1402E322548D18007C7C65 /* Frameworks */,
+				EA1402E422548D18007C7C65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYWordClockDemo;
+			productName = HYWordClockDemo;
+			productReference = EA1402E622548D18007C7C65 /* HYWordClockDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA14030022548D1A007C7C65 /* HYWordClockDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA14031822548D1A007C7C65 /* Build configuration list for PBXNativeTarget "HYWordClockDemoTests" */;
+			buildPhases = (
+				EA1402FD22548D1A007C7C65 /* Sources */,
+				EA1402FE22548D1A007C7C65 /* Frameworks */,
+				EA1402FF22548D1A007C7C65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA14030322548D1A007C7C65 /* PBXTargetDependency */,
+			);
+			name = HYWordClockDemoTests;
+			productName = HYWordClockDemoTests;
+			productReference = EA14030122548D1A007C7C65 /* HYWordClockDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA14030B22548D1A007C7C65 /* HYWordClockDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA14031B22548D1A007C7C65 /* Build configuration list for PBXNativeTarget "HYWordClockDemoUITests" */;
+			buildPhases = (
+				EA14030822548D1A007C7C65 /* Sources */,
+				EA14030922548D1A007C7C65 /* Frameworks */,
+				EA14030A22548D1A007C7C65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA14030E22548D1A007C7C65 /* PBXTargetDependency */,
+			);
+			name = HYWordClockDemoUITests;
+			productName = HYWordClockDemoUITests;
+			productReference = EA14030C22548D1A007C7C65 /* HYWordClockDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA1402DE22548D18007C7C65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = axc;
+				TargetAttributes = {
+					EA1402E522548D18007C7C65 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EA14030022548D1A007C7C65 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EA1402E522548D18007C7C65;
+					};
+					EA14030B22548D1A007C7C65 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EA1402E522548D18007C7C65;
+					};
+				};
+			};
+			buildConfigurationList = EA1402E122548D18007C7C65 /* Build configuration list for PBXProject "HYWordClockDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA1402DD22548D18007C7C65;
+			productRefGroup = EA1402E722548D18007C7C65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA1402E522548D18007C7C65 /* HYWordClockDemo */,
+				EA14030022548D1A007C7C65 /* HYWordClockDemoTests */,
+				EA14030B22548D1A007C7C65 /* HYWordClockDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA1402E422548D18007C7C65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA14032222549588007C7C65 /* Word.plist in Resources */,
+				EA1402F922548D1A007C7C65 /* LaunchScreen.storyboard in Resources */,
+				EA1402F622548D1A007C7C65 /* Assets.xcassets in Resources */,
+				EA1402F122548D18007C7C65 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1402FF22548D1A007C7C65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA14030A22548D1A007C7C65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA1402E222548D18007C7C65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA14032B2254A346007C7C65 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+				EA1403492259D241007C7C65 /* HYWordClockYViewController.m in Sources */,
+				EA1402EE22548D18007C7C65 /* ViewController.m in Sources */,
+				EA1402EB22548D18007C7C65 /* AppDelegate.m in Sources */,
+				EA14033F2255B08D007C7C65 /* HYWordClockHViewController.m in Sources */,
+				EA14032A2254A346007C7C65 /* UIView+SDAutoLayout.m in Sources */,
+				EA140320225490E6007C7C65 /* HYWordClockViewController.m in Sources */,
+				EA1402FC22548D1A007C7C65 /* main.m in Sources */,
+				EA1402F422548D18007C7C65 /* HYWordClockDemo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1402FD22548D1A007C7C65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA14030622548D1A007C7C65 /* HYWordClockDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA14030822548D1A007C7C65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA14031122548D1A007C7C65 /* HYWordClockDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA14030322548D1A007C7C65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA1402E522548D18007C7C65 /* HYWordClockDemo */;
+			targetProxy = EA14030222548D1A007C7C65 /* PBXContainerItemProxy */;
+		};
+		EA14030E22548D1A007C7C65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA1402E522548D18007C7C65 /* HYWordClockDemo */;
+			targetProxy = EA14030D22548D1A007C7C65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA1402EF22548D18007C7C65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA1402F022548D18007C7C65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA1402F722548D1A007C7C65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA1402F822548D1A007C7C65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA14031322548D1A007C7C65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA14031422548D1A007C7C65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA14031622548D1A007C7C65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = HYWordClockDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = axc.HYWordClockDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA14031722548D1A007C7C65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = HYWordClockDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = axc.HYWordClockDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA14031922548D1A007C7C65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L76H2ZNA28;
+				INFOPLIST_FILE = HYWordClockDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = axc.HYWordClockDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYWordClockDemo.app/HYWordClockDemo";
+			};
+			name = Debug;
+		};
+		EA14031A22548D1A007C7C65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L76H2ZNA28;
+				INFOPLIST_FILE = HYWordClockDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = axc.HYWordClockDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYWordClockDemo.app/HYWordClockDemo";
+			};
+			name = Release;
+		};
+		EA14031C22548D1A007C7C65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L76H2ZNA28;
+				INFOPLIST_FILE = HYWordClockDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = axc.HYWordClockDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HYWordClockDemo;
+			};
+			name = Debug;
+		};
+		EA14031D22548D1A007C7C65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L76H2ZNA28;
+				INFOPLIST_FILE = HYWordClockDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = axc.HYWordClockDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HYWordClockDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA1402E122548D18007C7C65 /* Build configuration list for PBXProject "HYWordClockDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA14031322548D1A007C7C65 /* Debug */,
+				EA14031422548D1A007C7C65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA14031522548D1A007C7C65 /* Build configuration list for PBXNativeTarget "HYWordClockDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA14031622548D1A007C7C65 /* Debug */,
+				EA14031722548D1A007C7C65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA14031822548D1A007C7C65 /* Build configuration list for PBXNativeTarget "HYWordClockDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA14031922548D1A007C7C65 /* Debug */,
+				EA14031A22548D1A007C7C65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA14031B22548D1A007C7C65 /* Build configuration list for PBXNativeTarget "HYWordClockDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA14031C22548D1A007C7C65 /* Debug */,
+				EA14031D22548D1A007C7C65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EA1402F222548D18007C7C65 /* HYWordClockDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EA1402F322548D18007C7C65 /* HYWordClockDemo.xcdatamodel */,
+			);
+			currentVersion = EA1402F322548D18007C7C65 /* HYWordClockDemo.xcdatamodel */;
+			path = HYWordClockDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EA1402DE22548D18007C7C65 /* Project object */;
+}
