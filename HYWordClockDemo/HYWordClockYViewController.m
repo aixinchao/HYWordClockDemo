@@ -166,21 +166,27 @@
 - (void)setupUI {
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"Word" ofType:@"plist"];
     NSArray *dataArray = [[NSArray alloc] initWithContentsOfFile:filePath];
-    
+    //[[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone
     CGPoint centerPoint = CGPointMake(self.view.frame.size.height / 2, self.view.frame.size.height / 2);
     CGFloat radius = 50.f;
+    CGFloat font = 10.f;
     CGFloat kHeight = 20.f;
     CGFloat maxWidth = 100.f;
     CGFloat labelMaxWidth = 0;
     CGFloat labelSpace = 5;
     UIView *backGView = nil;
     
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+        radius = 25.f;
+        font = 5.f;
+    }
+    
     for (int i = 0; i < dataArray.count; i++) {
         UILabel *label = [[UILabel alloc] init];
         label.tag = i;
         label.text = dataArray[i];
         label.textColor = [UIColor colorWithRed:64.f / 255.f green:64.f / 255.f blue:64.f / 255.f alpha:0.75];
-        label.font = [UIFont boldSystemFontOfSize:10];
+        label.font = [UIFont boldSystemFontOfSize:font];
         
         if (i == 0 || i == 12 || i == 43 || i == 50 || i == 52 || i == 64 || i == 123) {
             radius = radius + labelMaxWidth + labelSpace;
@@ -222,7 +228,7 @@
         CGFloat y = sin(((index * degrees) / 180.0) * M_PI) * radius;
         
         //确定位置
-        CGSize size = [label.text boundingRectWithSize:CGSizeMake(maxWidth, kHeight) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont boldSystemFontOfSize:10]} context:nil].size;
+        CGSize size = [label.text boundingRectWithSize:CGSizeMake(maxWidth, kHeight) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont boldSystemFontOfSize:font]} context:nil].size;
         if (size.width > labelMaxWidth) {
             labelMaxWidth = size.width;
         }
