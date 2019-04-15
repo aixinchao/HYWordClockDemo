@@ -136,6 +136,7 @@
     CGFloat topSpce = 5.f;
     CGFloat kHeight = 20.f;
     CGFloat maxWidth = 100.f;
+    CGFloat font = 10.f;
     
     UILabel *lastLabel = nil;
     UILabel *nextLabel = nil;
@@ -148,10 +149,10 @@
         label.tag = i;
         label.text = dataArray[i];
         label.textColor = [UIColor colorWithRed:64.f / 255.f green:64.f / 255.f blue:64.f / 255.f alpha:0.75];
-        label.font = [UIFont boldSystemFontOfSize:12];
+        label.font = [UIFont boldSystemFontOfSize:font];
         [self.view addSubview:label];
         
-        CGSize size = [label.text boundingRectWithSize:CGSizeMake(maxWidth, kHeight) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont boldSystemFontOfSize:12]} context:nil].size;
+        CGSize size = [label.text boundingRectWithSize:CGSizeMake(maxWidth, kHeight) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont boldSystemFontOfSize:font]} context:nil].size;
         label.frame = CGRectMake((isNextLine ? bothViewSpace : (lastLabel.frame.origin.x + lastLabel.frame.size.width + bothSpace)), (nextLabel ? (nextLabel.frame.origin.y + nextLabel.frame.size.height + topSpce) :topViewSpace), size.width, kHeight);
         
         if ((label.frame.origin.x + label.frame.size.width) > (self.view.frame.size.width - bothViewSpace)) {
